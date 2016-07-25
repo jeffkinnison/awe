@@ -53,7 +53,6 @@ run-md() {
 
 assign() {
 	puts "Assigning trajectory"
-	./awe-assign cells.dat CellIndices.dat traj.xtc StructureIndices.dat $ASSIGNMENT
 	echo
 }
 
